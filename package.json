@@ -1,0 +1,29 @@
+{
+  "name": "syncronizer-kia",
+  "version": "1.0.0",
+  "description": "syncronizer for kia store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacastrorug/syncronizer-kia.git"
+  },
+  "author": "@jacastrorug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacastrorug/syncronizer-kia/issues"
+  },
+  "homepage": "https://github.com/jacastrorug/syncronizer-kia#readme",
+  "devDependencies": {
+    "@types/mssql": "^7.1.5",
+    "@types/mysql": "^2.15.21",
+    "@types/ssh2": "^0.5.52",
+    "dotenv": "^16.0.0",
+    "mssql": "^8.0.2",
+    "mysql2": "^2.3.3",
+    "ssh2": "^1.9.0",
+    "typescript": "^4.6.3"
+  }
+}
