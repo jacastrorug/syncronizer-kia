@@ -1,10 +1,10 @@
-export class AccessoryDNS {
+export interface AccessoryDNS {
     bodega: number;
-    desBodega: string;
+    desBodega: string; // des_bodega
     codigo: string;
     codigoStock: string;
-    descripcion: string;
-    valorUnitarioSinIva: number;
-    valorConIva: number;
+    description: string;
+    valorUnitarioSinIva: number; // valor_unitario_sin_iva
+    valorConIva: number; // valorconiva
     stock: number;
-}
+};

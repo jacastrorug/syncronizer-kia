@@ -1,4 +1,4 @@
-export class ForwardConfig {
+export interface ForwardConfig {
     srcHost: string;
     srcPort: number;
     dstHost: string;
