@@ -23,6 +23,7 @@ const main = async () => {
         console.error(`The process can't completed: ${error}`)
     }
 
+    process.exit(0);
 };
 
 const getAccesoriesFromDNS = async (DNSConnection: ConnectionPool): Promise<AccessoryDNS[]> => {
