@@ -4,7 +4,11 @@
   "description": "syncronizer for kia store",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc",
+    "start": "npx tsc && node dist/index.js",
+    "start-build-audit": "npx tsc && node dist/index.js > logs/log-$(date +'%Y_%m_%d_%H_%M').txt",
+    "start-audit": "node dist/index.js > logs/log-$(date +'%Y_%m_%d_%H_%M').txt",
+    "start-audit-no-date": "node dist/index.js > logs/log.txt"
   },
   "repository": {
     "type": "git",
